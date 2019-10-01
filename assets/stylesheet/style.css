@@ -71,6 +71,7 @@ html {
 /*My Style*/
 
 .container1{
+	font-size: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -162,6 +163,10 @@ a:hover {
 	word-spacing: 1.5;
 }
 
+.item4 {
+	font-size: 0;
+}
+
 .par {
 	padding-top:1rem;
 	 }
@@ -188,7 +193,7 @@ a:hover {
 }
 
 progress {
-  width: 30rem;
+  width: 100%;
 }
 
 .item5-para {
@@ -206,7 +211,7 @@ progress {
 
 .container3 {
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .item6 {
@@ -249,6 +254,7 @@ progress {
 /*container4*/
 
 .container4 {
+	font-size: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -428,9 +434,12 @@ html {
 
 	.container1, .container2, .container3, .container4, .container6, .container7{
 		display: grid;
-		grid-template-columns: 100%;
+		grid-template-columns: 1fr;
 	}
 
+	.home-nav {
+		display: none;
+	}
  }
  
   
